@@ -1,0 +1,19 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td,
+th {
+  min-width: 100px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffe599
+}

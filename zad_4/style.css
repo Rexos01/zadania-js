@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  padding-top: 100%;
+  width: 100%;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.element-box {
+  flex-grow: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 2px;
+}
+
+
+.element-box>img {
+  height: 15%;
+}
+
+.element-box:nth-of-type(even) {
+  background-color: white;
+}
+
+.element-box:nth-of-type(odd) {
+  color: white;
+}

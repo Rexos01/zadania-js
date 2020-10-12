@@ -1,0 +1,22 @@
+.container {
+  margin-top: 20px;
+  border-top: 1px solid black;
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.col {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.col:last-child {
+  border-right: 1px solid black;
+}
+
+.row:nth-child(even) {
+  background-color: #ffe599
+}
